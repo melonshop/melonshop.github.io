@@ -1,0 +1,90 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+*{
+  box-sizing:border-box;
+  margin : auto;/* 0px로 하면 가운데 정렬이 안됨. */
+  color: white;
+  font-size: 30px;
+}
+
+p {
+  color : black;
+}
+
+.container {
+  width : 960px;
+}
+
+nav{
+  width: 100%;
+  height: 70px;
+  background-color: tomato;
+}
+
+nav h1{
+  line-height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  color: white;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: 'Nanum Pen Script', cursive;
+  color: pink;
+  line-height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  margin-left: 45px;
+}
+
+
+header {
+  width: 100%;
+  height: 600px;
+  background-color: yellow;
+
+}
+
+hedaer > h2
+{color : black
+}
+
+.dropdown{
+  text-align: center;
+}
+
+section {
+width: 100%;
+background-color: white;
+vertical-align: middle;
+display: inline-block;
+}
+
+article {
+  background-color: violet;
+  float: left;
+  margin : 5px
+}
+
+article > img{
+  width: 310px;
+  height: 310px;
+}
+
+article > p{
+  width : 310px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 50px;
+  background-color: green;
+}
+
+footer > dropdown {
+  float : right;
+}
